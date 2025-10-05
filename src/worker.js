@@ -67,8 +67,37 @@ export default {
               `, {
               headers
             });
+          }else{
+            return new Response(html`
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="ts" content="${new Date().toISOString()}">
+      <title>WC Info</title>
+      <link rel="stylesheet" href="${stylesheet}">
+      <style>
+        template[be-lazy], template[is-lazy] {
+          height:  500px;
+          display: block;
+        }
+      </style>
+    </head>
+    <body>
+    <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
+      <h1 itemprop="name" class="package" part="package-title">${(/** @type {any} */(json)?.package)?.name}</h1>
+    </header>
+    <main>
+    ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
+
+    </main>
+
+
+    </body>
+    </html>`);
           }
-          return new Response(JSON.stringify(json));
       }
 
   }
