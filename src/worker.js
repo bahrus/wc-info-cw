@@ -1,6 +1,7 @@
 //@ts-check
 import {getTagNameToDeclaration} from './getTagNameoDeclaration.js';
 import {tablify} from './tablify.js';
+import {createDeclaration} from './createDeclaration.js';
 
 /** @import  {Package, Module} from '../node_modules/custom-elements-manifest/schema.d.ts' */;
 
