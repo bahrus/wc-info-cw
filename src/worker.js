@@ -97,7 +97,7 @@ export default {
 
 
     </body>
-    </html>`);
+    </html>`, {headers});
           }
       }
 
