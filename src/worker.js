@@ -51,17 +51,18 @@ export default {
           const tags = (url.searchParams.get('tags') || '').split(',').map(t => t.trim()).filter(t => t);
           const processed = getTagNameToDeclaration(json);
           let declarations = processed?.declarations || [];
+          const mobile = request.headers.get('Sec-ch-ua-mobile') === '?1';
           if(embedded){
                 return new Response(html`
                   ${declarations.map(declaration => html`
                     <h1 id="${/** @type {any} */(declaration).tagName}">${/** @type {any} */(declaration).tagName}</h1>
-                    ${tablify(/** @type {any} */(declaration).members.filter(x => (x.kind === 'field') && (x.privacy !== 'private')) , 'Properties', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/ClassField', mobile, ['kind'])}
+                    ${tablify(/** @type {any} */(declaration).members.filter(/** @param x {any} */ x => (x.kind === 'field') && (x.privacy !== 'private')) , 'Properties', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/ClassField', mobile, ['kind'])}
                     ${tablify(/** @type {any} */(declaration).attributes, 'Attributes', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Attribute', mobile)}
                     ${tablify(/** @type {any} */(declaration).cssProperties, 'CSS Properties', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/CssCustomProperty', false)}
                     ${tablify(/** @type {any} */(declaration).cssParts, 'CSS Parts', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/CssPart', false)}
                     ${tablify(/** @type {any} */(declaration).slots, 'Slots', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Slot', false)}
                     ${tablify(/** @type {any} */(declaration).events, 'Events', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Event', false)}
-                    ${tablify(/** @type {any} */(declaration).members.filter((x) => (x.kind === 'method') && (x.privacy !== 'private')) , 'Methods', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Method', mobile, ['kind'])}
+                    ${tablify(/** @type {any} */(declaration).members.filter(/** @param x {any} */x => (x.kind === 'method') && (x.privacy !== 'private')) , 'Methods', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Method', mobile, ['kind'])}
                 `).join('')}
               `, {
               headers
