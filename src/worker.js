@@ -94,7 +94,10 @@ export default {
     ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
 
     </main>
-
+    
+    <script type=module crossorigin=anonymous>
+        import 'https://esm.sh/be-lazy@0.0.33/emc.js';
+    </script>
 
     </body>
     </html>`, {headers});
