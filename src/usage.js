@@ -13,48 +13,53 @@ export const usage = html`
     @import "https://unpkg.com/open-props@1.3.16";
     @import "https://unpkg.com/open-props@1.3.16/normalize.min.css";
     label {
-        height: 45px;
+        height: 60px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-    input{
+    input, textarea{
         width: calc(100vw - 150px);
     }
 </style>
 <link rel="stylesheet" href="simple-ce-style.css">
 </head>
 <body style=margin:3px>
-    <h1>WC Info Usage 2</h1>
+    <h1>WC Info Usage</h1>
         <form style="display:flex;flex-direction:column">
             <fieldset>
                 <legend>Query Parameters</legend>
-                <label for=href>
+                <label>
                     href
-                    <input type="text" id="href" name="href" value="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace/dist/custom-elements.json">
+                    <input type=text name=href value="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace/dist/custom-elements.json">
                 </label>
                 
-                <label for="stylesheet">
+                <label>
                     stylesheet
-                    <input type="text" id="stylesheet" name="stylesheet" value="https://cdn.jsdelivr.net/npm/wc-info/simple-ce-style.css">
+                    <input type=text name=stylesheet value="https://cdn.jsdelivr.net/npm/wc-info/simple-ce-style.css">
                 </label>
                 
-                <label for="embedded">
+                <label>
                     embedded
-                    <input type="text" id="embedded" name="embedded" value="false">
+                    <input type=text name=embedded value="false">
                 </label>
                 
-                <label for="tags">
+                <label>
                     tags
-                    <input type="text" id="tags" name="tags">
+                    <input type=text name=tags>
                 </label>
                 
-                <label for="ts">
+                <label>
                     timestamp
-                    <input type="text" id="ts" name="ts" value="${new Date().toISOString()}">
+                    <input type=text name=ts value="${new Date().toISOString()}">
                 </label>
-                
+
+                <label>
+                    intro text
+                    <textarea name=intro>Shoelace Web Components</textarea>
+                </label> 
+
             </fieldset>
             <button type="submit">Submit</button>
             

@@ -69,6 +69,7 @@ export default {
               headers
             });
           }else{
+            const intro = url.searchParams.get('intro');
             return new Response(html`
   <!DOCTYPE html>
   <html lang="en">
@@ -88,7 +89,7 @@ export default {
     </head>
     <body>
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
-      <h1 itemprop="name" class="package" part="package-title">${(/** @type {any} */(json)?.package)?.name}</h1>
+      <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
     </header>
     <main>
     ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
