@@ -10,6 +10,11 @@ https://wc-info.bahrus.workers.dev/
 
 [Fluent UI](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40fluentui%2Fweb-components%403.0.0-beta.124%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-05T22%3A21%3A38.762Z&intro=Fluent+UI+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@fluentui/web-components@3.0.0-beta.124/custom-elements.json)
 
-Adobe Specrtrum breaks up compoenents into individual packages.  So to take one example:
+Adobe Spectrum breaks up components into individual packages.  So to take one example:
 
 [Adobe Spectrum Avatar Web Component](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40spectrum-web-components%2Favatar%401.8.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-05T22%3A21%3A38.762Z&intro=Adobe+Spectrum+Avatar+Web+Component) generated from [this distributable](https://cdn.jsdelivr.net/npm/@spectrum-web-components/avatar@1.8.0/custom-elements.json)
+
+<!-- https://www.npmjs.com/package/@ionic/core?activeTab=code -->
+
+[Carbon Web Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40carbon%2Fweb-components%402.39.1%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-06T00%3A08%3A38.487Z&intro=Carbon+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@carbon/web-components@2.39.1/custom-elements.json) doesn't follow the schema so generates blank.  Looks like the vscode format.
+
