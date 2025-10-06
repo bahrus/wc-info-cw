@@ -18,7 +18,7 @@ const html = String.raw;
  * @returns 
  */
 export function createDeclaration(declaration, idx, mobile){
-  if(idx < 3){
+  if(idx < 3000000){
     return createSection(declaration, mobile);
   }
   return html`
