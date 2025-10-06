@@ -18,3 +18,7 @@ Adobe Spectrum breaks up components into individual packages.  So to take one ex
 
 [Carbon Web Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40carbon%2Fweb-components%402.39.1%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-06T00%3A08%3A38.487Z&intro=Carbon+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@carbon/web-components@2.39.1/custom-elements.json) doesn't follow the schema so generates blank.  Looks like the vscode format.
 
+[Patternfly](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40patternfly%2Felements%404.2.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-06T00%3A08%3A38.487Z&intro=Patternfly+elements) generated from [this distributable](https://cdn.jsdelivr.net/npm/@patternfly/elements@4.2.0/custom-elements.json).
+
+
+
