@@ -13,7 +13,7 @@ const html = String.raw;
  * @returns {string}
  */
 export function tablify(obj, name, itemType, separateLineForDescription, exclude = []){
-  console.log('tablifying ' + name);
+  //console.log('tablifying ' + name);
   if(obj === undefined || obj.length === 0) return '';
   const compactedName = name.replaceAll(' ', '-').toLowerCase();
   const keys = getKeys(obj).filter(x => !exclude.includes(x));

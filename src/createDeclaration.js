@@ -1,6 +1,7 @@
 //@ts-check
 
 import {tablify} from './tablify.js';
+import {marked} from 'marked';
 
 /** @import  {
  *      Package, Module, CustomElementDeclaration, CustomElement, Declaration, 
@@ -34,11 +35,12 @@ export function createDeclaration(declaration, idx, mobile){
  * @returns 
  */
 function createSection(declaration, mobile){
+  const description = marked.parse(declaration?.description ?? '');
   return html`
     <section itemscope id="${(/** @type {any} */(declaration)).tagName}">
         <hgroup>
           <h1 itemprop="tagName" >${(/** @type {any} */(declaration)).tagName}</h1>
-          <h2 itemprop="description">${declaration.description || ''}</h2>
+          <h2 itemprop="description">${description}</h2>
           <h3 itemprop="summary">${declaration.summary || ''}</h3>
         </hgroup>
         ${!(/** @type {any} */(declaration))?.members ? ''  : tablify((/** @type {any} */(declaration)).members.filter(/** @param x {any} */x => (x.kind === 'field') && (x.privacy !== 'private')) , 'Properties', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/ClassField', mobile, ['kind'])}

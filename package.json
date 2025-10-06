@@ -8,6 +8,9 @@
 		"start": "wrangler dev",
 		"update": "ncu -u && npm install"
 	},
+	"dependencies": {
+		"marked": "16.3.0"
+	},
 	"devDependencies": {
 		"wrangler": "^4.42.0",
 		"custom-elements-manifest": "2.1.0"

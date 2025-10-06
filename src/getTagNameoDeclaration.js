@@ -19,7 +19,7 @@ export function getTagNameToDeclaration(fetchResult){
   if(pack === undefined) return;
   const mods = pack.modules;
   if(mods === undefined) return;
-  console.log(typeof mods);
+  //console.log(typeof mods);
   for(const mod of mods){
       const declarations = mod.declarations;
       if(declarations === undefined) continue;
