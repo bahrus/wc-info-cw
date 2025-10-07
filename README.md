@@ -2,6 +2,8 @@
 
 Generates Reference documentation for a web component library based on the custom element manifest.
 
+{Note}: Use Bash to install wrangler
+
 ## Usage:
 
 https://wc-info.bahrus.workers.dev/
