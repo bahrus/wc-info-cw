@@ -37,7 +37,7 @@ export const usage = html`
                 
                 <label>
                     stylesheet
-                    <input type=text name=stylesheet value="https://cdn.jsdelivr.net/npm/wc-info@0.0.173/simple-ce-style.css">
+                    <input type=text name=stylesheet value="https://cdn.jsdelivr.net/npm/wc-info@0.0.181/simple-ce-style.css">
                 </label>
                 
                 <label>
