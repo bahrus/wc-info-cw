@@ -2,7 +2,7 @@
 
 Generates Reference documentation for a web component library based on the custom element manifest.
 
-{Note}: Use Bash to install wrangler
+[Note]: Use Bash to install wrangler
 
 ## Usage:
 
@@ -23,6 +23,8 @@ Adobe Spectrum breaks up components into individual packages.  So to take one ex
 [Fluent UI](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40fluentui%2Fweb-components%403.0.0-beta.124%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Fluent+UI+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@fluentui/web-components@3.0.0-beta.124/custom-elements.json)
 
 [Lion Web Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40lion%2Fui%400.15.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Lion+Web+Components) from [this distributable](https://cdn.jsdelivr.net/npm/@lion/ui@0.15.0/custom-elements.json)
+
+[QuietUI](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40quietui%2Fquiet%401.1.1%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T23%3A50%3A17.204Z&intro=Quiet+UI) from [this distributable](https://cdn.jsdelivr.net/npm/@quietui/quiet@1.1.1/dist/custom-elements.json)
 
 [Patternfly](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40patternfly%2Felements%404.2.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Patternfly+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@patternfly/elements@4.2.0/custom-elements.json)
 
