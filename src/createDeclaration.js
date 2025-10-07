@@ -36,12 +36,13 @@ export function createDeclaration(declaration, idx, mobile){
  */
 function createSection(declaration, mobile){
   const description = marked.parse(declaration?.description ?? '');
+  const summary = marked.parse(declaration.summary??'');
   return html`
     <section itemscope id="${(/** @type {any} */(declaration)).tagName}">
         <hgroup>
           <h1 itemprop="tagName" >${(/** @type {any} */(declaration)).tagName}</h1>
           <h2 itemprop="description">${description}</h2>
-          <h3 itemprop="summary">${declaration.summary || ''}</h3>
+          <h3 itemprop="summary">${summary}</h3>
         </hgroup>
         ${!(/** @type {any} */(declaration))?.members ? ''  : tablify((/** @type {any} */(declaration)).members.filter(/** @param x {any} */x => (x.kind === 'field') && (x.privacy !== 'private')) , 'Properties', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/ClassField', mobile, ['kind'])}
         ${tablify((/** @type {any} */(declaration)).attributes, 'Attributes', 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Attribute', mobile)}
