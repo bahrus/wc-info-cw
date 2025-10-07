@@ -89,11 +89,12 @@ export default {
     </head>
     <body>
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
-      <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
       <button popovertarget=navigation-popup>TOC</button>
-      <dialog popover id=navigation-popup>
-        <nav id=nav></nav>
-      </dialog>
+      <dialog popover=auto id=navigation-popup>
+        <nav id=nav onclick=parentElement.hidePopover()></nav>
+      </dialog>  
+    <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
+      
     </header>
     <main>
     ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
@@ -105,7 +106,7 @@ export default {
     </script> -->
     <toc-ky id=tocky></toc-ky>
     <script type=module>
-        import 'https://esm.sh/toc-ky@0.0.1/toc-ky.js';
+        import 'https://esm.sh/toc-ky@0.0.3/toc-ky.js';
         nav.appendChild(tocky);
     </script>
     </body>
