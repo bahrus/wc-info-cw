@@ -86,12 +86,17 @@ function displayCell(key, x, compactedName, colspan = ''){
     if(Array.isArray(val) && key){
       return html`<td ${attrs}>${tablify(val, key, 'https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json', false)}</td>`;
     }else{
-      return html`<td ${attrs} data-is-json>
-        <details>
-          <summary></summary>
-          ${JSON.stringify(val, null, 2)}
-        </details>
-      </td>`;
+      if(Object.keys(val).length === 1 && 'text' in val){
+        return html`<td ${attrs}>${val.text}</td>`;
+      }else{
+        return html`<td ${attrs} data-is-json>
+          <details>
+            <summary></summary>
+            ${JSON.stringify(val, null, 2)}
+          </details>
+        </td>`;
+      }
+
     }
     
   }else{
