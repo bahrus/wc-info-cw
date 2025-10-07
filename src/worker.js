@@ -90,7 +90,10 @@ export default {
     <body>
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
       <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
-      <nav id=nav></nav>
+      <button popovertarget=navigation-popup>TOC</button>
+      <dialog popover id=navigation-popup>
+        <nav id=nav></nav>
+      </dialog>
     </header>
     <main>
     ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
