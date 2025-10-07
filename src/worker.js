@@ -89,7 +89,7 @@ export default {
     </head>
     <body>
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
-      <button popovertarget=navigation-popup>TOC</button>
+      <button popovertarget=navigation-popup>&#9776;</button>
       <dialog popover=auto id=navigation-popup>
         <nav id=nav onclick=parentElement.hidePopover()></nav>
       </dialog>  
