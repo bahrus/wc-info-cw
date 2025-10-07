@@ -91,7 +91,7 @@ export default {
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
       <button id=hamburger popovertarget=navigation-popup></button>
       <dialog popover=auto id=navigation-popup>
-        <nav id=nav onclick=parentElement.hidePopover()></nav>
+        <nav id=nav do-invoke="#navigation-popup?.hidePopover on click"></nav>
       </dialog>  
     <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
       
@@ -106,8 +106,9 @@ export default {
     </script> -->
     <toc-ky id=tocky></toc-ky>
     <script type=module>
-        import 'https://esm.sh/toc-ky@0.0.3/toc-ky.js';
-        nav.appendChild(tocky);
+      import 'https://esm.sh/do-invoke@0.0.4/emc.js';
+      import 'https://esm.sh/toc-ky@0.0.3/toc-ky.js';
+      nav.appendChild(tocky);
     </script>
     </body>
     </html>`, {headers});
