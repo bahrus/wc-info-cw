@@ -80,26 +80,31 @@ export default {
       <meta name="ts" content="${new Date().toISOString()}">
       <title>WC Info</title>
       <link rel="stylesheet" href="${stylesheet}">
-      <style>
+      <!-- <style>
         template[be-lazy], template[is-lazy] {
           height:  500px;
           display: block;
         }
-      </style>
+      </style> -->
     </head>
     <body>
     <header class="package-header" part="package-header" itemscope itemtype="https://cdn.jsdelivr.net/npm/custom-elements-manifest@1.0.0/schema.json#definitions/Reference">
       <h1 itemprop="intro" class="intro" part="package-title">${intro}</h1>
+      <nav id=nav></nav>
     </header>
     <main>
     ${declarations.map((declaration, idx) => createDeclaration(declaration, idx, mobile)).join('')}
 
     </main>
     
-    <script type=module crossorigin=anonymous>
+    <!-- <script type=module crossorigin=anonymous>
         import 'https://esm.sh/be-lazy@0.0.33/emc.js';
+    </script> -->
+    <toc-ky id=tocky></toc-ky>
+    <script type=module>
+        import 'https://esm.sh/toc-ky@0.0.1/toc-ky.js';
+        nav.appendChild(tocky);
     </script>
-
     </body>
     </html>`, {headers});
           }
