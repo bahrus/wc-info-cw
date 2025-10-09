@@ -24,6 +24,8 @@ Adobe Spectrum breaks up components into individual packages.  So to take one ex
 
 [Lion Web Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40lion%2Fui%400.15.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Lion+Web+Components) from [this distributable](https://cdn.jsdelivr.net/npm/@lion/ui@0.15.0/custom-elements.json)
 
+[NordHealth Web Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40nordhealth%2Fcomponents%404.8.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-09T00%3A45%3A30.900Z&intro=Nord+Health+Web+Components) from [this distributable](https://cdn.jsdelivr.net/npm/@nordhealth/components@4.8.0/custom-elements.json)
+
 [QuietUI](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40quietui%2Fquiet%401.1.1%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T23%3A50%3A17.204Z&intro=Quiet+UI) from [this distributable](https://cdn.jsdelivr.net/npm/@quietui/quiet@1.1.1/dist/custom-elements.json)
 
 [Patternfly](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40patternfly%2Felements%404.2.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Patternfly+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@patternfly/elements@4.2.0/custom-elements.json)
@@ -32,15 +34,4 @@ Adobe Spectrum breaks up components into individual packages.  So to take one ex
 
 [UI5](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40ui5%2Fwebcomponents%402.15.0%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=UI5+Web+Components), generated from [this distributable](https://cdn.jsdelivr.net/npm/@ui5/webcomponents@2.15.0/dist/custom-elements.json)
 
-
-
-
-
-
-
-
-
-
-
-
-
+Umbraco experimental like carbon https://cdn.jsdelivr.net/npm/@umbraco-ui/uui@1.15.0/custom-elements.json
