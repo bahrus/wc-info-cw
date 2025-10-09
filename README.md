@@ -30,8 +30,14 @@ Adobe Spectrum breaks up components into individual packages.  So to take one ex
 
 [Patternfly](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40patternfly%2Felements%404.2.0%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Patternfly+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@patternfly/elements@4.2.0/custom-elements.json)
 
+Riverty generated from [this distributable](https://cdn.jsdelivr.net/npm/@riverty/web-components@5.4.0/custom-elements.json) not curently compatible.
+
+
+
 [Shoelace](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40shoelace-style%2Fshoelace%402.20.1%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=Shoelace+Web+Components) generated from [this distributable](https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/dist/custom-elements.json)
 
-[UI5](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40ui5%2Fwebcomponents%402.15.0%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-07T21%3A27%3A18.719Z&intro=UI5+Web+Components), generated from [this distributable](https://cdn.jsdelivr.net/npm/@ui5/webcomponents@2.15.0/dist/custom-elements.json)
+[UI5](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40ui5%2Fwebcomponents%402.15.0%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false
 
-Umbraco experimental like carbon https://cdn.jsdelivr.net/npm/@umbraco-ui/uui@1.15.0/custom-elements.json
+[VSCode Elements](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40vscode-elements%2Felements%402.3.1%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-09T10%3A10%3A06.304Z&intro=VSCode+Elements) generated from [this](https://cdn.jsdelivr.net/npm/@vscode-elements/elements@2.3.1/custom-elements.json).
+
+[Universal Material Components](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40universal-material%2Fweb%403.4.2%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-09T10%3A10%3A06.304Z&intro=Universal+Material+Components) generated from [this](https://cdn.jsdelivr.net/npm/@universal-material/web@3.4.2/custom-elements.json).
