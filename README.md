@@ -42,7 +42,8 @@ public UI [not compatible currently](https://cdn.jsdelivr.net/npm/@public-ui/com
 
 
 
-[UI5](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40ui5%2Fwebcomponents%402.15.0%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false
+[UI5](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40ui5%2Fwebcomponents%402.15.0%2Fdist%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false)
+
 
 [VSCode Elements](https://wc-info.bahrus.workers.dev/?href=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40vscode-elements%2Felements%402.3.1%2Fcustom-elements.json&stylesheet=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fwc-info%400.0.185%2Fsimple-ce-style.css&embedded=false&tags=&ts=2025-10-09T10%3A10%3A06.304Z&intro=VSCode+Elements) generated from [this](https://cdn.jsdelivr.net/npm/@vscode-elements/elements@2.3.1/custom-elements.json).
 
